@@ -3,46 +3,64 @@ body {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #f3f0f9; /* خلفية بلون بنفسجي فاتح */
 }
+
 .container {
-  background: white;
+  background: #ffffff; /* خلفية بيضاء */
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 12px; /* زوايا دائرية أكثر */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ظل خفيف */
 }
+
 .form-group {
-  margin-bottom: 15px;
+  margin-bottom: 20px; /* زيادة المسافة السفلية */
 }
+
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-weight: bold;
+  color: #5e3b76; /* لون بنفسجي داكن للنص */
 }
+
 select, button {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #c8bfe7; /* لون حدود بنفسجي فاتح */
+  border-radius: 6px;
 }
+
+select {
+  background-color: #f9f7fc; /* خلفية بنفسجية فاتحة */
+  color: #5e3b76; /* لون النص */
+}
+
 button {
-  background-color: #4CAF50;
+  background-color: #7d4e9e; /* لون بنفسجي متوسط */
   color: white;
   cursor: pointer;
   transition: background 0.3s;
+  border: none; /* إزالة الحدود */
 }
+
 button:hover {
-  background-color: #45a049;
+  background-color: #6a3e88; /* لون أغمق عند التمرير */
 }
+
 #sensorData {
   margin-top: 20px;
   padding: 15px;
-  background: #e9f7ef;
-  border-radius: 4px;
+  background: #f0e6fa; /* خلفية بنفسجية فاتحة */
+  border-left: 4px solid #7d4e9e; /* شريط جانبي بنفسجي */
+  border-radius: 6px;
+  color: #5e3b76; /* لون النص */
 }
+
 .command-history {
   margin-top: 20px;
-  border-top: 1px solid #ddd;
+  border-top: 2px solid #c8bfe7; /* خط علوي بنفسجي فاتح */
   padding-top: 15px;
+  color: #5e3b76; /* لون النص */
 }
